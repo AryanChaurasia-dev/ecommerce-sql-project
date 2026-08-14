@@ -28,7 +28,7 @@ This project demonstrates:
 - SQL querying techniques including joins, aggregations, and filtering
 - Business-focused data analysis using MySQL
 
-- ## Project Link
+ ## Project Link
 [View Project](github.com/AryanChaurasia-dev/ecommerce-sql-project)
 
 ## Contact
