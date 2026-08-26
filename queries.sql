@@ -391,7 +391,7 @@ on c.customer_id = o.customer_id
 group by c.customer_id, c.first_name
 having sum(o.total_amount) > ( select avg(total_amount) from orders);
 
--- give by copilot.
+-- given by copilot.
 SELECT c.customer_id, 
        c.first_name, 
        SUM(o.total_amount) AS total_spending
