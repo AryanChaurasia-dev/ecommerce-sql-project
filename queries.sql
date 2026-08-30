@@ -16,12 +16,12 @@ use e_commerce;
 -- active customers registerd in 2024
 select * from customers where status = 'Active' and year(created_at) = 2024;
 
---  customers with more than 5 orders
+--  customers with more than 4 orders
 SELECT c.customer_id, c.first_name, c.last_name, COUNT(o.order_id) AS order_count
 FROM Customers c
 inner JOIN Orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.first_name, c.last_name
-HAVING COUNT(o.order_id) > 5
+HAVING COUNT(o.order_id) > 4
 ORDER BY order_count DESC;
 
 
