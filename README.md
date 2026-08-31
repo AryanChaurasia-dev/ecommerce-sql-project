@@ -28,6 +28,15 @@ This project demonstrates:
 - SQL querying techniques including joins, aggregations, and filtering
 - Business-focused data analysis using MySQL
 
+##  Key Business Insights & Analytical Metrics
+Through this e-commerce analysis, I solved business problems by tracking critical performance indicators:
+
+* **Revenue Growth Analysis:** Tracked Month-over-Month (MoM) revenue trends to pinpoint seasonal sales peaks and slow business periods.
+* **Product Performance:** Identified the top 5 highest-grossing product categories and isolated slow-moving stock to optimize inventory turnover.
+* **Customer Retention:** Evaluated customer purchasing frequency to separate high-value repeat shoppers from one-time buyers.
+* **Operational Performance:** Analyzed average order values (AOV) and popular payment methods to help the marketing team target high-converting channels.
+
+
  ## Project Link
 [View Project](github.com/AryanChaurasia-dev/ecommerce-sql-project)
 
